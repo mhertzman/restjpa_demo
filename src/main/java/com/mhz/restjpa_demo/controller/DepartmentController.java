@@ -33,7 +33,7 @@ public class DepartmentController {
         return departmentService.fetchDepartmentList();
     }
 
-    // Update operation
+    // Update operation just a change
     @PutMapping("/departments/{id}")
     public Department
     updateDepartment(@RequestBody Department department,
